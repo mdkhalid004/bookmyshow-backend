@@ -47,6 +47,7 @@ This project provides a secure, scalable architecture for managing movies, theat
 
 ## 📁 Project Structure
 
+```text
 bookmyshow-project/
 │
 ├── bookmyshow-backend/
