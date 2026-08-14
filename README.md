@@ -47,21 +47,11 @@ This project provides a secure, scalable architecture for managing movies, theat
 
 ## 📁 Project Structure
 
-```text
-bookmyshow-backend/
+bookmyshow-project/
 │
-├── src/
-│   ├── main/
-│   │   ├── java/com/cfs/BookMyShow/
-│   │   │   ├── controller/   # REST Controllers (Auth, Movie, Theatre, Show, Booking)
-│   │   │   ├── dto/          # Data Transfer Objects
-│   │   │   ├── entity/       # Database Entities (User, Movie, Theatre, Screen, Seat, Show, Booking, Ticket)
-│   │   │   ├── repository/   # JPA Repositories
-│   │   │   └── service/      # Business Logic & Implementations
-│   │   │
-│   │   └── resources/
-│   │       └── application.properties # Database & JWT configurations
-│   │
-│   └── pom.xml
+├── bookmyshow-backend/
+│   ├── src/
+│   ├── pom.xml
+│   └── ...
 │
 └── README.md
